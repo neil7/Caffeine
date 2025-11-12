@@ -1,0 +1,43 @@
+{
+    "mode": "centralized",
+    "args": {
+        "mode": "centralized",
+        "dataset": "cifar10",
+        "data_root": "./data",
+        "num_clients": 10,
+        "num_rounds": 50,
+        "local_epochs": 5,
+        "iid": false,
+        "batch_size": 32,
+        "train_epochs": 10,
+        "train_model": false,
+        "client_id": 0,
+        "unlearn_ratio": 0.1,
+        "lr": 0.001,
+        "alpha": 0.1,
+        "num_iterations": 3,
+        "epsilon": 0.01,
+        "model_path": "./checkpoints/cifar10_model.pth",
+        "device": "auto",
+        "output_dir": "./results/centralized"
+    },
+    "accuracy": {
+        "unlearn_before": 10.36,
+        "unlearn_after": 10.18,
+        "retain_before": 10.26,
+        "retain_after": 10.297777777777778,
+        "test_before": 10.38,
+        "test_after": 10.38
+    },
+    "metrics": {
+        "unlearn_loss_before": 2.3040969959259034,
+        "unlearn_loss_after": 2.3040950210571287,
+        "retain_loss_before": 2.3039191689385308,
+        "retain_loss_after": 2.303922297668457,
+        "influence_norms": [
+            0.0014226247949409299,
+            0.001615178136717077,
+            0.0014964948193778582
+        ]
+    }
+}
