@@ -201,7 +201,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## 🙏 Acknowledgments
 
 - Ferrari implementation: [Federated-Feature-Unlearning](https://github.com/OngWinKent/Federated-Feature-Unlearning)
-- Computational efficiency approach based on doctoral symposium paper (Middleware 2025)
 - Benchmark datasets: MNIST, CIFAR-10/100
 
 ## 📧 Contact
